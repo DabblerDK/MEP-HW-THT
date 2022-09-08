@@ -23,7 +23,7 @@ Bill of Materials:
 | Component | Value | Type | Note |
 | ------------- | ------------- | ------------- | ------------- |
 | R1-R2 | 10K ohm | | |
-| R3-R7 | 0 ohm | | Mount either R3 or R4 |
+| R3-R7 | 0 ohm | | Mount either R3 (permanent) or R4 (ESP32 controlled, recommended) depending on how you will power your MAX3232. See https://www.dabbler.dk/index.php/2022/04/03/echelon-nes-smart-meters-dabbling-the-hardware-v1-10-and-v2-00/ |
 | D1 | 1N4007 | | |
 | C1-C5 | 100nF | Non-polarized | |
 | U1 | MAX3232 | DIP-16 | 3.3v version (warning: lots of fake chips out there) |
