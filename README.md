@@ -26,8 +26,8 @@ Bill of Materials:
 | R3-R7 | 0 ohm | | Mount either R3 (permanent) or R4 (ESP32 controlled, recommended) depending on how you will power your MAX3232. See https://www.dabbler.dk/index.php/2022/04/03/echelon-nes-smart-meters-dabbling-the-hardware-v1-10-and-v2-00/ |
 | D1 | 1N4007 | | |
 | C1-C5 | 100nF | Non-polarized | |
-| U1 | MAX3232 | DIP-16 | 3.3v version (warning: lots of fake chips out there) |
+| U1 | MAX3232 | DIP-16 | 3.3v version (warning: lots of fake chips out there). IMPORTANT: Make sure to tim the pins on the back of the PCB so they stay clear of the J6 connector pins! |
 | U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required |
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329 |
-| J6 | 2x3 Horizontal pin header | 2.54mm | i.e. https://www.ebay.com/itm/253023279430 |
+| J6 | 2x3 Horizontal pin header | 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered flush with the PCB surface to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
 | J7 | 2x2 Vertical pin header | 2.54mm | |
