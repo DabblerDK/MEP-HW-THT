@@ -18,6 +18,8 @@ Notes:
 - WARNING: Remove all jumpers from J7 before adjusting the buck converter voltage to 3.6v. When done set a jumper between pin 3 and 4 for nomal operation.
 - The buck converter must be mounted without pin headers, i.e. flush to the PCB. Just put solder blobs in the holes and use additional heat for a good connection. The module will not fit in the meter if pin headers are used!
 
+WARNING: Troubleshooting PCBs with fake MAX3232
+- If you dont have R3 populated (ESP32 controlled power for the MAX3232 - see below), you will be able to measure the set voltage from the buck converter on one pin, and the actual power suppliedby the ESP32 on the other. The ESP32 cannot supply much power, so you'll measure a voltage far below the 3.3v required by the MAX3232, the MAX3232 won't work and your ESP32 will get hot. Don't run in that configuration for long - replace your MAX3232 with a working one!
 
 Bill of Materials:
 | Component | Value | Type | Note |
