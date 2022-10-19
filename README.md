@@ -34,5 +34,5 @@ Bill of Materials:
 | U1 | MAX3232 and socket | DIP-16 | 3.3v version (warning: lots of fake chips out there - we recommend using a socket). IMPORTANT: Make sure to tim the pins on the back of the PCB so they stay clear of the J6 connector pins! |
 | U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required |
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329. The VIN- corner should be aligned towards J7 |
-| J6 | 2x3 Horizontal pin header | 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered flush with the PCB surface to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
+| J6 | 2x3 Horizontal pin header | 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered exactly flush with the PCB surface on the soldering side of the PCB to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
 | J7 | 2x2 Vertical pin header | 2.54mm | You will need one jumper for these |
