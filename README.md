@@ -1,4 +1,4 @@
-# MEP-HW-THT v.1.10
+# MEP-HW-THT v1.10
 Multipurpose Expansion Port (MEP) Through-Hole Technology (THT) Hardware for OSGP Smart Meters in Denmark
 
 This is the repository holding the Thrugh-Hole Technology (THT) Hardware for OSGP Smart Meters (i.e. Echelon or NES) in Denmark.
