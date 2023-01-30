@@ -33,7 +33,7 @@ Bill of Materials:
 | D1 | 1N4007 | | Square solder pad should be aligned towards the marking on the diode |
 | C1-C5 | 100nF | Non-polarized | |
 | U1 | MAX3232 and socket | DIP-16 | 3.3v version (warning: lots of fake chips out there - we recommend using a socket). IMPORTANT: Make sure to tim the pins on the back of the PCB so they stay clear of the J6 connector pins! |
-| U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required |
+| U2 | ESP32-wroom-32e | 16MB recommended but currently NOT required | We have not experienced any thermal issues so we do not solder the middle thermal pad. Just make sure the ESP32 is flush with the PCB
 | J1-J4 | DC-DC Buck converter | | i.e. https://www.ebay.com/itm/264731212329. The VIN- corner should be aligned towards J7 |
 | J6 | 2x3 Horizontal pin header | 2.54mm | IMPORTANT: Do not insert this pin header fully in the PCB. The pins should be soldered exactly flush with the PCB surface on the soldering side of the PCB to fit the connector in the meter! i.e. https://www.ebay.com/itm/253023279430 |
 | J7 | 2x2 Vertical pin header | 2.54mm | You will need one jumper for these: If set horizontally between the two pins next to the PCB edge it is in programming mode (use FTDI232 board connected to J5 to program). If set horizontally between the two pins just above the horizontal C5 capacitor it is in normal operation. Remove jumper completely while adjusting the Buck converter (no power will then be supplied to chips) |
